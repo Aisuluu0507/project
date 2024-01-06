@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+.menu{
+  margin-top: 40px;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  background: pink;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  margin-left: 500px;
+  color: white;
+  font-size: 25px;
+}
+
+.main {
+  padding: 20px;
+}
+.bestCakes{
+  font-size: 40px;
+  font-style: italic;
+  color: pink;
+  margin-left: 1025px;
+  margin-bottom: -6px;
+  margin-top: -10px;
+}
+h1{
+  font-size: 40px;
+  font-style: italic;
+  color: #f4abb8;;
+  margin-left: 720px;
+  margin-top: 70px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cake-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 200px;
+}
+
+.cake-item {
+  text-align: center;
+}
+
+.cake-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+input {
+  width: 424px;
+  height: 57px;
+  border: 5px solid pink;
+  border-radius: 31px;
+  color: purple;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 24px;
+  margin-left: 15px;
+}
+img{
+  border: 7px solid pink;
+  border-radius: 50px;
+  width: 300px;
+}
+h2{
+  color: rebeccapurple;
+  text-align: center;
+  margin-left: -380px;
+}
+p{
+  font-size: 30px;
+  color: palevioletred;
+}
+span{
+  font-size: 40px;
+  color: teal;
+  margin-left: 150px;
+}
+
+.modal{
+  border: 5px solid #bd4258;
+  width: 500px;
+  width: 697px;
+  height: 369px;
+  margin-left: 1560px;
+  margin-top: -1868px;
+}
+
+.modal-content{
+    width: 200px;
+    margin-left: 130px
+}
+button{
+  border: 5px solid pink;
+  width: 314px;
+  height: 50px;
+  color: purple;
+  background: wheat;
+  margin-left: 65px;
+  font-size: 21px;
+}
+h3{
+  color: teal;
+  margin-left: 84px;
+  font-style: italic;
+  margin-top: -29px;
+  width: 506px;
+  font-size: 22px;
+  margin-left: 17px;
+}
+.close{
+  margin-left: 512px;
+  color: red;
+  font-size: 65px;
+}
